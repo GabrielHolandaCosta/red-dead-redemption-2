@@ -1,0 +1,70 @@
+html {
+    scroll-behavior: smooth;
+}
+body {
+    background-color: #292E32;
+    margin: 0;
+}
+
+.principal {
+    text-align: center;
+    background-color: #363636;
+    padding: 0.1px;
+    border-radius: 10px;
+    color: white;
+}
+
+.lista, .lista a {
+    text-align: center;
+    text-decoration: none;
+    color: rgb(255, 255, 255); 
+    padding: 10px;
+    
+}
+
+.lista a:hover {
+    color: rgb(255, 255, 255);
+    text-decoration: underline;
+}
+
+.sobre {
+    width: 80%; 
+    max-width: 1000px; 
+    margin: 0 auto; 
+    padding: 20px; 
+    background-color: #2F3337;
+    border-radius: 10px;
+    color: white;
+}
+
+.eu{
+    background-color: #363636;
+    color: white;
+    padding: 10px;
+    text-align: center;
+}
+
+h1{
+    text-align: center;
+}
+
+h2 {
+    padding: 10px;
+    margin: 0; 
+    text-align: center;
+}
+
+img {
+    display: block; 
+    margin: 0 auto; 
+    max-width: 100%; 
+    height: auto; 
+    padding: 5px;
+}
+
+@media (max-width: 600px) {
+    .sobre {
+        width: 90%;
+        padding: 10px;
+    }
+}
